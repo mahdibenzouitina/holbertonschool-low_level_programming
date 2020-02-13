@@ -1,5 +1,5 @@
 #ifndef HOLBERTON_H
-#fefine HOLBERTON_H
+#define HOLBERTON_H
 int _isupper(int c);
 int _isdigit(int c);
 void print_alphabet_x10(void);
