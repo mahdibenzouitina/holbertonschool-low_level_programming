@@ -1,10 +1,10 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * int_isupper - uppercase character
- * @c: variable
+ * _isupper - Uppercase character.
+ * @c: varible
  *
- * Return: if c is uppercase 1 or 0 other wise
+ * Return: 1 if uppercase 0 if otherwise
  */
 int _isupper(int c)
 {
