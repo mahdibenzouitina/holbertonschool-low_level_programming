@@ -15,6 +15,9 @@ int j;
 for (i = 0; c[i] != '\0'; i++)
 for (j = 0; str1[j] != '\0'; j++)
 if (c[i] == str1[j])
+{
 c[i] = str2[j];
+break;
+}
 return (c);
 }
