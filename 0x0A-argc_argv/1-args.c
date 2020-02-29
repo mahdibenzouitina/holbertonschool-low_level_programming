@@ -4,7 +4,7 @@
  * @argc: number of arg
  * @argv: dkf
  *
- * Return : zero
+ * Return: zero
  */
 int main(int argc, __attribute__((unused)) char **argv)
 {
