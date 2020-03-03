@@ -10,13 +10,13 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-char *ar;  
+char *ar;
 int i;
 int j;
 int a;
 int b;
 if (s1 == 0 || s2 == 0)
-return(NULL);
+return (NULL);
 for (a = 0; s1[a] != '\0'; a++)
 ;
 for (b = 0; s2[b] != '\0'; b++)
