@@ -14,13 +14,13 @@ unsigned int n;
 char *ar;
 if (size == 0)
 return (0);
-ar = malloc (size * sizeof(char));
+ar = malloc(size * sizeof(char));
 for (n = 0; n < size ; n++)
 {
 ar[n] = c;
 }
 return (ar);
- if (ar == 0)
-   return (0);
+if (ar == 0)
+return (0);
 }
 
