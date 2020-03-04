@@ -15,8 +15,10 @@ int i;
 int j;
 int a;
 int b;
-if (s1 == 0 || s2 == 0)
-return ("");
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
 for (a = 0; s1[a] != '\0'; a++)
 ;
 for (b = 0; s2[b] != '\0'; b++)
