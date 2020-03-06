@@ -21,6 +21,8 @@ for (a = 0; s1[a] != '\0'; a++)
 ;
 for (b = 0; s2[b] != '\0'; b++)
 ;
+if (n >= b)
+n = b;
 ar = malloc((a + n + 1) * sizeof(char));
 if (ar == NULL)
 return (NULL);
