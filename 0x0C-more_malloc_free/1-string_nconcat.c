@@ -33,9 +33,6 @@ for (j = 0; j < n; j++)
 ar[i] = s2[j];
 i++;
 }
-{
-ar[i + j] = s2[j];
-}
 ar[i] = '\0';
 return (ar);
 }
