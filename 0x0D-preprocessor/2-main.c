@@ -2,7 +2,7 @@
 /**
  * main - name
  *
- * Retrun: zero
+ * Return: zero
  */
 int main(void)
 {
