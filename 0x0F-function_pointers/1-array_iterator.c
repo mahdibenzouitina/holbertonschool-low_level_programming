@@ -1,4 +1,3 @@
-#include "function_pointers.h"
 #include <stdio.h>
 /**
  * array_iterator - executes a function
@@ -13,6 +12,5 @@ unsigned int n;
 if (array == NULL || action == NULL)
 return;
 for (n = 0; n < size; n++)
-;
 action(array[n]);
 }
