@@ -42,12 +42,11 @@ int i = 0;
 			printf("%s", j);
 			break;
 		}
-if ((format[i] == 'c' || format[i] == 'i'
-|| format[i] == 'f'
+if ((format[i] == 'c' || format[i] == 'i' || format[i] == 'f'
 || format[i] == 's') && (format[i + 1] != '\0'))
-				printf(", ");
-			i++;
-		}
-		va_end(valist);
-		printf("\n");
+	printf(", ");
+i++;
+	}
+	va_end(valist);
+	printf("\n");
 }
