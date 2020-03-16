@@ -3,7 +3,7 @@ section .data
 	l equ $-msg
 	section .text
 	global _start
-_start:
+main:
 	mov rax,1
 	mov rdx,l
 	syscall
