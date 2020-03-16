@@ -39,7 +39,10 @@ int i = 0;
 				printf("(nil)");
 				break;
 			}
-			if ((format[i] == 'c' || format[i] == 'i'
+			printf("%s", j);
+			break;
+		}
+if ((format[i] == 'c' || format[i] == 'i'
 || format[i] == 'f'
 || format[i] == 's') && (format[i + 1] != '\0'))
 				printf(", ");
@@ -47,5 +50,4 @@ int i = 0;
 		}
 		va_end(valist);
 		printf("\n");
-	}
 }
