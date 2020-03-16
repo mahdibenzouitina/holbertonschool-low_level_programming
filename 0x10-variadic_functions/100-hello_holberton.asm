@@ -1,11 +1,11 @@
 section .data
-	msg db 10d,13d,"Hello, Holberton "
-	l equ $-msg
+	msg db "Hello, Holberton", 10
 	section .text
-	global _start
+	global main
 main:
 	mov rax,1
-	mov rdx,l
+	mov rdi,1
+mov rsi, msg
 	syscall
 
 	mov rax,60
