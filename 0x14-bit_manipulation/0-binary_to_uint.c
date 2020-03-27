@@ -21,8 +21,8 @@ unsigned int binary_to_uint(const char *b)
 	for (len = i; len >= 0; len--)
 	{
 		if (b[len] == 49)
-			sum = sum + m;
+			sum = sum + (m / 2);
 		m = m * 2;
 	}
-	return (sum / 2);
+	return (sum);
 }
