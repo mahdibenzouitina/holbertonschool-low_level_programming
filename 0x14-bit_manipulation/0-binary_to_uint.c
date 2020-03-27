@@ -13,14 +13,14 @@ unsigned int binary_to_uint(const char *b)
 
 	if (b == NULL)
 		return (0);
-	for (i = 0; b[i] != '\0'; i++)
+	for (len = 0; b[len] != '\0'; len++)
 	{
-		if (b[i] != '0' && b[i] != '1')
+		if (b[len] != '0' && b[len] != '1')
 			return (0);
 	}
-	for (len = i; len >= 0; len--)
+	for (i = len; i >= 0; i--)
 	{
-		if (b[len] == 49)
+		if (b[i] == 49)
 			sum = sum + (m / 2);
 		m = m * 2;
 	}
