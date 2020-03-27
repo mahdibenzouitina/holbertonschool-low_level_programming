@@ -17,6 +17,8 @@ int get_bit(unsigned long int n, unsigned int index)
 		i = 0;
 		return (i);
 	}
+	if (index > 31)
+		return (-1);
 	for (c = 0; n; c++)
 	{
 		if (c == index)
